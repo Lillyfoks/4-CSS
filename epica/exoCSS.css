@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin-left: 125px;
+    margin-right: 150px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+h1 {
+    font-size: 48pt;
+    color: #bd0000;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 24pt;
+    color: rgb(255, 253, 111);
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-size: 18pt;
+    color: antiquewhite;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+ol {
+    font-size: 18pt;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+div {
+    font-size: 16pt;
+    color: #84c97bc9;
+    font-family: 'Times New Roman', Times, serif;
+}
+#lien {
+font-style: unset;
+color:#7E3661 ;
+
+}
+hr {
+    color: #bd0000;
+}
+#epica {
+    margin: auto;
+   }

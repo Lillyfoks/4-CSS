@@ -1,0 +1,78 @@
+@keyframes balancier {
+    0% {
+        transform: rotate(0deg); /* Position de départ (pas de rotation) */
+    }
+    50% {
+        transform: rotate(15deg); /* Point culminant de la rotation */
+    }
+    100% {
+        transform: rotate(0deg); /* Retour à la position de départ */
+    }
+}
+header #gollumsatisfait {
+    animation: balancier 5s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+}
+.tete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tete img {
+    max-width: 700px;
+}
+
+.corps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.corps h4 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corps .photo {
+    width: 50%;
+    border-radius: 20%;
+}
+
+.corps .photo:hover {
+    width: 60%;
+    transition-duration: 1s;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.map {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .map {
+        display: none;
+    }
+    #gollumsatisfait {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .map {
+        display: none;
+    }
+    #gollumsatisfait {
+        display: none;
+    }
+}
